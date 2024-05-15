@@ -51,3 +51,8 @@ i,
 em {
   color: #0588c4;
 }
+
+img {
+  height: 40rem;
+  width: 40rem;
+}
