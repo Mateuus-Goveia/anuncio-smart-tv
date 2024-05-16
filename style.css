@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
-  font-size: 1.8rem;
-  line-height: 1.4;
 }
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
 }
 
 h1 {
@@ -43,13 +46,19 @@ figcaption {
   margin-left: 3.2rem;
 }
 
-a {
+a:link,
+a:visited {
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: double underline;
   color: #c44105;
   margin-bottom: 2.4rem;
   display: inline-block;
+}
+
+a:hover,
+a:active {
+  color: #0588c4;
 }
 
 li {
@@ -65,6 +74,10 @@ b,
 i,
 em {
   color: #0588c4;
+}
+
+em {
+  text-decoration: underline;
 }
 
 img {
