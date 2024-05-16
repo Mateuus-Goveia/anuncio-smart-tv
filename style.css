@@ -102,3 +102,11 @@ hr {
 .div-condições em {
   color: #78d4ff;
 }
+
+.botao-wpp {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  height: 8.5rem;
+  width: 8.5rem;
+}
