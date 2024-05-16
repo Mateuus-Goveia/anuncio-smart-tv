@@ -1,5 +1,10 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Montserrat, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
 }
 
 html {
@@ -19,11 +24,6 @@ h2 {
 h3 {
   font-size: 2.4rem;
   line-height: 1.2;
-}
-
-p {
-  font-size: 1.8rem;
-  line-height: 1.4;
 }
 
 figcaption {
